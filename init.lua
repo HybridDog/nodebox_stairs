@@ -4,9 +4,8 @@ local load_time_start = os.clock()
 -- What needs to be changed
 
 local stairboxdef = {
-	mesh = "",
 	drawtype = "nodebox",
-	nodebox = {
+	node_box = {
 		type = "fixed",
 		fixed = {
 			{-0.5, -0.5, -0.5, 0.5, 0, 0.5},
